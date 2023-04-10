@@ -38,7 +38,7 @@ Compile a C++ file named _hello.cpp_ with custom compiler options and output fil
 make.ps1 hello.cpp -o hello -m "-Wall -O3"
 ```
 ## Bash version
-The Bash version of PowerBash-Make is a work-in-progress and has not been fully tested. It provides the same functionality as the PowerShell version, but with a Bash-compatible syntax.
+The Bash version of PowerBash-Make has not been fully tested as I don't have linux machine right now. It provides the same functionality as the PowerShell version, but with a Bash-compatible syntax.
 
 To use the Bash version, navigate to the directory containing your C/C++ program in Bash and run the following command:
 
