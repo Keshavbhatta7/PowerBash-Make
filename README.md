@@ -1,8 +1,8 @@
-<h1>PowerBash-Make</h1>
+# PowerBash-Make
 PowerBash-Make is a simple command-line build tool for compiling C/C++ programs using either PowerShell or Bash. It was created by ChatGPT and is distributed under the MIT License.
 
-<h2>PowerShell version</h2>
-The PowerShell version of PowerBash-Make is fully functional and tested. It provides a simple way to compile C/C++ programs using the <b>clang<b/> or <b>clang++<b/> compiler.
+## PowerShell version
+The PowerShell version of PowerBash-Make is fully functional and tested. It provides a simple way to compile C/C++ programs using the __clang__ or __clang++__ compiler.
 
 To use the PowerShell version, navigate to the directory containing your C/C++ program in PowerShell and run the following command:
 
