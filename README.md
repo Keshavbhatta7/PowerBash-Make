@@ -11,6 +11,8 @@ To use the PowerShell version, navigate to the directory containing your C/C++ p
 ```
 Here, file is the name of your C/C++ source file, -o is an optional flag for specifying the output file name, and -m is an optional flag for specifying compiler options.
 
+Note: If you enter a file without its extension, it will look for that file with '.c' extension and if it finds, it will compile that file instead else if it doesn't it will look for that file with '.cpp' extension and will compile it and if it doesn't find any of those then it will print an error.
+
 If no arguments are passed, the tool will print a usage message. If the specified file does not exist or is not a valid C/C++ file, the tool will print an error message and exit. If the compilation is successful, the tool will print a success message; otherwise, it will print a failure message.
 
 You can also set enviroment variable to that specific folder where you have make.ps1 and allow scripts in your powershell by using following command in adimin mode:
@@ -49,6 +51,8 @@ make.sh file [-o output_file_name] [-m compiler_options]
 Here, **file** is the name of your C/C++ source file, **-o** is an optional flag for specifying the output file name, and **-m** is an optional flag for specifying compiler options.
 
 If no arguments are passed, the tool will print a usage message. If the specified file does not exist or is not a valid C/C++ file, the tool will print an error message and exit. If the compilation is successful, the tool will print a success message; otherwise, it will print a failure message.
+
+Note: If you enter a file without its extension, it will look for that file with '.c' extension and if it finds, it will compile that instead else if it doesn't it will look for that file with '.cpp' extension and will compile it and if it doesn't find any of those then it will print an error.
 
 Just like in powershell version you can remove .sh from the name of the file and you can set the folder in which make.sh is to path and then you can **make** from wherever you like.
 
