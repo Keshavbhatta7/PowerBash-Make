@@ -2,7 +2,7 @@
 PowerBash-Make is a simple command-line build tool for compiling C/C++ programs using either PowerShell or Bash. It was created by ChatGPT and is distributed under the MIT License.
 
 ## PowerShell version
-The PowerShell version of PowerBash-Make is fully functional and tested. It provides a simple way to compile C/C++ programs using the __clang__ or __clang++__ compiler.
+The PowerShell version of PowerBash-Make is fully functional and tested. It provides a simple way to compile C/C++ programs using the **clang** or **clang++** compiler.
 
 To use the PowerShell version, navigate to the directory containing your C/C++ program in PowerShell and run the following command:
 
@@ -46,14 +46,14 @@ To use the Bash version, navigate to the directory containing your C/C++ program
 chmod +x make.sh
 make.sh file [-o output_file_name] [-m compiler_options]
 ```
-Here, __file__ is the name of your C/C++ source file, __-o__ is an optional flag for specifying the output file name, and__-m__ is an optional flag for specifying compiler options.
+Here, **file** is the name of your C/C++ source file, **-o** is an optional flag for specifying the output file name, and**-m** is an optional flag for specifying compiler options.
 
 If no arguments are passed, the tool will print a usage message. If the specified file does not exist or is not a valid C/C++ file, the tool will print an error message and exit. If the compilation is successful, the tool will print a success message; otherwise, it will print a failure message.
 
-Just like in powershell version you can remove .sh from the name of the file and you can set the folder in which make.sh is to path and then you can __make__ from wherever you like.
+Just like in powershell version you can remove .sh from the name of the file and you can set the folder in which make.sh is to path and then you can **make** from wherever you like.
 
 ### Variables
-You can customize the behavior of the Bash version of PowerBash-Make by modifying the following variables at the beginning of the __make.sh__ file:
+You can customize the behavior of the Bash version of PowerBash-Make by modifying the following variables at the beginning of the **make.sh** file:
 
-* compiler: The default compiler to use (__clang__ or __clang++__).
-* outputExt: The default file extension for the output file (__.out__ by default).
+* compiler: The default compiler to use (**clang** or **clang++**).
+* outputExt: The default file extension for the output file (**.out** by default).
