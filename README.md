@@ -46,7 +46,7 @@ To use the Bash version, navigate to the directory containing your C/C++ program
 chmod +x make.sh
 make.sh file [-o output_file_name] [-m compiler_options]
 ```
-Here, **file** is the name of your C/C++ source file, **-o** is an optional flag for specifying the output file name, and**-m** is an optional flag for specifying compiler options.
+Here, **file** is the name of your C/C++ source file, **-o** is an optional flag for specifying the output file name, and **-m** is an optional flag for specifying compiler options.
 
 If no arguments are passed, the tool will print a usage message. If the specified file does not exist or is not a valid C/C++ file, the tool will print an error message and exit. If the compilation is successful, the tool will print a success message; otherwise, it will print a failure message.
 
